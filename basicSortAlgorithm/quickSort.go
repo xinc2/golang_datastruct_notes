@@ -49,11 +49,11 @@ func QuickSortAsending(arr []int, start, end int) {
 		if i < j {
 			arr[i], arr[j] = arr[j], arr[i]
 		}
-
-		// i,j相遇,将基准值归位
-		arr[start] = arr[i]
-		arr[i] = pivot
 	}
+
+	// i,j相遇,将基准值归位
+	arr[start] = arr[i]
+	arr[i] = pivot
 
 	// 递归的继续处理基准值左边的数组
 	QuickSortAsending(arr, start, i-1)
