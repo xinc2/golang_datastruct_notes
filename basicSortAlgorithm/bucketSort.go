@@ -76,7 +76,7 @@ func BucketSort(arr []int) []int {
 	return arr
 }
 
-func main() {
+func main210() {
 	array := []int{31, 16, 37, 2, 13, 32, 10, 27, 7, 42, 29, 18, 28, 12, 9}
 	BucketSort(array)
 	fmt.Println("BucketSort:", array)
