@@ -63,7 +63,7 @@ func QuickSortAsending(arr []int, start, end int) {
 
 }
 
-func main() {
+func main11111() {
 	var arr = []int{9, 10, 1, 4, 2, 3, 37, 87, 2, 7, 6, 21}
 	QuickSortAsending(arr, 0, len(arr)-1)
 	fmt.Println(arr)
