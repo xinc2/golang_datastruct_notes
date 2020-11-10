@@ -31,7 +31,7 @@ func countingSort(arr []int, maxValue int) []int {
 	return arr
 }
 
-func main() {
+func main1111() {
 	array := []int{69, 16, 48, 2, 2, 3, 32, 10, 27, 17, 42, 29, 8, 28, 12, 9}
 	countingSort(array, array[0])
 	fmt.Println("BucketSort:", array)
