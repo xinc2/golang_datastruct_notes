@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// CocktailSort 鸡尾酒排序，又称双冒泡排序
 func CocktailSort(list []int) []int {
 
 	length := len(list)
